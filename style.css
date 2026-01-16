@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>B2W Infotech | Dev Portal</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+}
+header {
+  background: #0d47a1;
+  color: white;
+  padding: 16px 30px;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  width: 220px;
+  background: #1e3c72;
+  color: white;
+  height: calc(100vh - 56px);
+  padding: 20px;
+}
+.sidebar p {
+  margin: 15px 0;
+}
+.main {
+  flex: 1;
+  padding: 30px;
+}
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+.badge {
+  background: #1976d2;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<header>B2W Infotech – Application Portal</header>
+
+<div class="container">
+  <div class="sidebar">
+    <p>Dashboard</p>
+    <p>Services</p>
+    <p>CI/CD</p>
+    <p>Monitoring</p>
+  </div>
+
+  <div class="main">
+    <div class="card">
+      <h2>Development Environment</h2>
+      <span class="badge">DEV</span>
+      <p><strong>Branch:</strong> frontend-a</p>
+      <p>Deployed using Jenkins Parameterized Pipeline.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
